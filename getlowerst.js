@@ -15,7 +15,7 @@ axios
     const BAYCprice = response.data.price;
     const numberss = web3.utils.fromWei(BAYCprice,'ether');
 
-    console.log("Balance : " + numberss);
+    console.log("Balance : " + numberss + " ETH ");
 
 
   })
